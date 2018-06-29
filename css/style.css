@@ -1,3 +1,27 @@
+@charset "utf-8";
+/* style tarek */
 main{
-    
+    margin: auto;
+    width: 1200px;
+    border-radius: 15px;
+    border: 2px gray outset;
+    padding: 5px;
 }
+.conteneur_t{
+    background: gray;
+    border-radius: 15px;
+    border: outset;
+    width: 1190px;
+}
+img{
+   float: left;
+}
+p{
+    width: 800px;
+    padding: 10px;
+    float: left;
+}
+.clear_t{
+    clear: both;
+}
+/* fin style tarek */

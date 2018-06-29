@@ -27,7 +27,7 @@ header {
     color: white;
     text-align: center;
     display: block;
-    float: right;
+    float: left;
     padding: 20px 10px;
     text-decoration: none;
     text-transform: uppercase;
@@ -43,7 +43,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    font-size: 2em; /* taille du texte */
+    font-size: 1em; /* taille du texte */
 }
 
 .logo_f a {
@@ -62,6 +62,14 @@ footer {
 
 }
 
+footer nav ul li {
+    list-style-type: none;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
 .clear_f {
     clear: both;
 }

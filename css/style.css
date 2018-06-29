@@ -6,6 +6,8 @@ main{
     border-radius: 15px;
     border: 2px gray outset;
     padding: 5px;
+    position: relative;
+    top:150px;
 }
 .conteneur_t{
     background: gray;
@@ -25,3 +27,77 @@ p{
     clear: both;
 }
 /* fin style tarek */
+
+
+
+body{
+    background:red;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    background: lightseagreen;
+    position: fixed; /* le header est fixé en haut de page */
+    top: 0;
+    left: 0;
+}
+
+/* Pour la navbar */
+.navbar_f {
+    background: #333;
+    width: 30%;
+    height: 50%;
+    float: right;
+}
+
+.navbar_f a {
+    color: white;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar_f a:hover {
+    color: crimson;
+    background: rgba(40, 72, 253, 0.678);
+}
+
+.logo_f {
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 1em; /* taille du texte */
+}
+
+.logo_f a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer {
+    width: 100%;
+    height: 20%;
+    background: lightseagreen;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+
+footer nav ul li {
+    list-style-type: none;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.clear_f {
+    clear: both;
+}
